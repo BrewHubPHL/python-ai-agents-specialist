@@ -45,7 +45,3 @@ Never commit; never log.
 ## Protected routes
 
 Maintain explicit list of paths requiring HMAC (`PROTECTED_AGENT_PATHS`) — don't default-open new endpoints.
-
-## References
-
-- `security-specialist` for OWASP API auth patterns
