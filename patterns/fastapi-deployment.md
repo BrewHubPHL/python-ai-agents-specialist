@@ -11,7 +11,7 @@ from google.adk.cli.fast_api import get_fast_api_app
 app = get_fast_api_app(agents_dir=".")
 ```
 
-MCP may mount as ASGI sub-app (`franklin_mcp.asgi:app`).
+MCP may mount as ASGI sub-app (`<agent>_mcp.asgi:app`).
 
 ## Local dev
 

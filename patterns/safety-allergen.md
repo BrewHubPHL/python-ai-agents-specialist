@@ -29,7 +29,7 @@ async def scrubbing_text_stream(stream):
 
 ## Layer 3 — Post-response audit
 
-Every Layer-1 hit or scrub event writes `franklin_safety_audit`:
+Every Layer-1 hit or scrub event writes `<agent>_safety_audit`:
 
 - `agent_name`, `user_id`, `model`, `tool_calls`, `matched_pattern`
 

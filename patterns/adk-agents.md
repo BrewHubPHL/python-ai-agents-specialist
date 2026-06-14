@@ -63,7 +63,7 @@ All-Anthropic via LiteLLM + `CLAUDE_API_KEY`. Block direct Gemini SDK imports in
 
 ## ADK + MCP integration
 
-ADK agents can consume **external MCP servers** via `MCPToolset` (ADK docs). Internal BrewHub pattern: reach Supabase/Square directly in `lib/tools/` — MCP layer for **cross-runtime** bridges (Next.js → Python).
+ADK agents can consume **external MCP servers** via `MCPToolset` (ADK docs). A common pattern: reach Supabase/Square directly in `lib/tools/` — reserve the MCP layer for **cross-runtime** bridges (Next.js → Python).
 
 ## References
 

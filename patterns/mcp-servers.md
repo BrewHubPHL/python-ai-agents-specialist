@@ -15,7 +15,7 @@
 
 ```python
 from mcp.server.fastmcp import FastMCP
-from franklin_mcp.member_jwt_context import get_current_member_id
+from <agent>_mcp.member_jwt_context import get_current_member_id
 from lib.tools.get_loyalty_snapshot import fetch_loyalty_snapshot
 
 mcp = FastMCP("My MCP Server")
